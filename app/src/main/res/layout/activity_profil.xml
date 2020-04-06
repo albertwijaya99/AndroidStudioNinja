@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:background="@drawable/bg"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Albert Wijaya"
+        android:textColor="#F2DA20"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintVertical_bias="0.10" />
+    <TextView
+        android:id="@+id/tvNim"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tvName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="21498"
+        android:textSize="30dp"
+        android:textColor="#143C8A"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/tvClass1"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="-AppCompatActivity\n-Attribute Set\n-Bitmap\n-Bitmap Factory\n-Bundle\n-Button"
+        android:textSize="20dp"
+        android:textColor="#801112"
+        android:textStyle="bold"
+        app:layout_constraintVertical_bias="0.9" />
+    <TextView
+        android:id="@+id/tvClass"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="-Canvas\n-Context\n-Intent\n-Media Player\n-Motion Event\n-View"
+        android:textSize="20dp"
+        android:textColor="#801112"
+        android:textStyle="bold"
+        app:layout_constraintVertical_bias="0.9" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
